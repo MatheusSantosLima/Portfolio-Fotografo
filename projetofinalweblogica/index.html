@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus Santos, Alice Alves, Isabela">
+   <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js" defer></script>
+    <title>Matheus Santos</title>
+
+    <style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+  </head>
+  <body>
+    <nav>
+      <div class="row">
+        <div class="col-6">
+          <a class="menu" href="#"><img src="img/logo.png" style="width: 200px; height: 200px;"></a>
+        </div>
+        <div class="col-6" style="margin-bottom: 20px ;">
+          <a class="menu" href="#">HOME</a>
+          <a class="menu" href="#conteiner-fotografo">SOBRE MIM</a>
+          <a class="menu" href="#pag-portfolio">PORTFÓLIO</a>
+          <a class="menu" href="#pag-contatos">CONTATOS</a>
+          <a class="menu" href="#pag-agendamento">AGENDAMENTO</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="img/banner1.png" style="width: 100%; height: 580px;" >
+      </div>
+      <div class="mySlides fade">
+        <img src="img/banner2.png" style="width: 100%; height: 580px;">
+      </div>
+      <div class="mySlides fade">
+        <img src="img/banner3.png" style="width: 100%; height: 580px;">
+      </div>
+      </main>
+
+ <section>
+      <div style="padding-left: 160px;">
+        <h2>O FOTÓGRAFO</h2>
+        <hr>
+      </div>
+        <div id="conteiner-fotografo">
+          <div class="coluna-sobremim">
+            <p>Olá! Meu nome é Matheus Santos Lima tenho 27 anos sou residente de Brasília no Distrito Federal. Em 2018 comecei a cursar fotografia na Escola técnica de fotografia de Brasilia que fica localizada no setor comercial Sul, edifício Carioca. </p></br>
+
+              <p>Na Introdução à Fotografia Digital no curso técnico de Fotografia Básica aprendir 
+              sobre: filosofia da Imagem, câmeras fotográficas Digitais, cartão de memória, armazenamento da imagem, diafragma, iso e obturador, fotometria: estudo da luz, controle da Intensidade e Manipulação da Luz, Telemetria: Sistema de Foco e Mediação, Flash, Dominio das Técnicas fotograficas,Profundidade de Campo e 
+              Foco Seletivo Avançado.</p></br>
+
+              <p>Para aperfeiçoar meus conhecimentos, participei de aulas praticas na torre de TV, no Parque da Cidade, e Esplanada dos Ministério, aulas estas que foram ministradas pelo professor Walter de Carvalho. Participei também do PROFOX CONFERENCE, um congresso para fotografos, com paletras e show, foi muito enriquecedor, pois adquirir muitos conhecimentos.</p></br>
+
+              <p><em>Tento trazer em meus registros, o que é verdadeiro, o espontâneo, o natural</em>. É o que eu acredito que a fotografia precisa transmitir. Quero que minhas fotos ultrapassem a barreira do tempo, e aqueça corações e traga sorrisos daqui 20, 30, 50, 100 anos..</p></br>
+
+              <p>Se você nesses três parágrafos se identificou comigo, eu fico muito feliz, e te convido: e aí, me da o prazer de arquivar as suas memórias?</p>
+            </div>
+          <div class="coluna-img">
+            <img src="img/fotografo.png" style="width: 334px; height: 440px;">
+          </div>
+        </div>
+      </section>
+
+      <div id="frase-efeito">
+          <p style="text-align: center;
+                    position: relative;
+                    padding-top: 50px;">é aqui que a <em>magia</em> acontece</p>
+      </div>
+
+  <section id="pag-portfolio">
+    <h2 style="text-align: center; margin-top: 60px">PORTFÓLIO</h2> 
+    <div class="conteiner-fotografo" style="padding-left: 180px;">
+      <div class="row" style=" display: grid;
+  grid-template-columns: repeat(3, 0.29fr);
+  grid-template-rows: repeat(3, 79px);">
+      <div class="col">
+          <img src="img/foto1.png" alt="casamento" width="300" height="200" style="border-radius: 20px;">
+      </div>
+      <div class="col">
+            <img src="img/foto2.png" alt="casamento" width="300" height="200" style="border-radius: 20px;">
+      </div>
+      <div class="col">
+        <img src="img/foto3.png" alt="casamento" width="300" height="200" style="border-radius: 20px;">
+      </div>
+    </div>
+    <div class="row" style=" display: grid;
+  grid-template-columns: repeat(3, 0.29fr);
+  grid-template-rows: repeat(3, 70px);">
+      <div class="col-4">
+       
+          <a target="_blank" href="">
+            <img src="img/foto4.png" alt="casamento" width="300" height="200" style="border-radius: 20px;">
+          </a>
+        
+      </div>
+      <div class="col-4">
+        
+          <a target="_blank" href="">
+            <img src="img/foto5.png" alt="casamento" width="300" height="200" style="border-radius: 20px;">
+          </a>
+        
+      </div>
+      <div class="col-4">
+          <a target="_blank" href="">
+            <img src="img/foto6.png" alt="casamento" width="300" height="200" style="border-radius: 20px;">
+          </a>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+
+  <section id="pag-agendamento">
+
+    <div style="text-align: center; margin-top: 60px ;">
+      <h1>Agendamentos</h1>
+
+      <p>Agende seu Ensaio!</p>
+    </div>
+      
+      <form name="" method="" action="">
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" name="nome" placeholder="Digite seu nome completo" required onblur="validaNome()" /><br/>
+
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" name="email" placeholder="nomeusuario@email.com" required onblur="validaEmail()" />
+
+        <label for="celular">Celular:</label>
+        <input id="celular" type="tel" name="celular" placeholder="(99)99999-9999"/ pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" >
+
+        <div id="data-hora">
+            <label for="data">Data:</label>
+            <input id="data" type="date" name="data" />
+          
+            <label for="hora">Hora:</label>
+            <input id="hora" type="time" name="hora" /><br/>
+          </div><br/>
+
+       <label for="mensagem">DEIXE UMA MENSAGEM</label> <br/>
+      <textarea id="mensagem" cols="25" rows="4" required  onblur="validarMensagem()"></textarea><br/><br/>
+
+        <div id="botoes-form">
+          <input onclick="enviarMensagem()" type="submit" name="bnt-agendar" value="AGENDAR" required />
+          <input type="reset" name="btn-cancelar" value="CANCELAR" />
+        </div>
+      </form>
+    </section>
+      <footer id="pag-contatos">
+      <div id="redes-sociais">
+        <img src="img/telefone.jpg" alt="" style="border-radius: 40px;">
+        <a href="tel:+61995465050">Contatos</a>
+        <img src="img/email.jpg" alt="" style="border-radius: 40px;">
+        <a href="mailto:https://mail.google.com/mail/u/2/#inbox">Gmail</a>
+        <img src="img/insta.jpg" alt="" style="border-radius: 40px;">
+        <a href="https://www.instagram.com/matheuslim390/?next=%2F">Instagram</a>
+        <img src="img/face.jpg" alt="" style="border-radius: 40px;">
+        <a href="https://www.facebook.com/profile.php?id=100030470810385">Facebook</a>
+       </div>
+        <p>Desenvolvido por Matheus Santos, Alice Alves e Isabela</p>
+        </footer>
+      <a class="bt-topo" href="#"><img src="img/home.png" alt="home" width="70" height="70" style="border-radius: 20px;"></a>
+    
+  </body>
+  
+</html>
